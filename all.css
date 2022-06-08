@@ -51,6 +51,7 @@ table {
 img {
 	max-width: 100%;
 	height: auto;
+  vertical-align: middle;
 }
 a {
   text-decoration: none;
@@ -90,7 +91,6 @@ h3{
 .font-bold{
   font-weight: bold;
 }
-
 
 .btn-toTop{
   width: 71px;
@@ -169,8 +169,8 @@ h3{
   }
 }
 .navbar a{
-  width: 130px;
-  height: 40px;
+  /* width: 130px;
+  height: 40px; */
   font-size: 16px;
   background: #FF5D50;
   color: #fff;
@@ -197,22 +197,13 @@ h3{
     width: 100%;
   }
 }
-.header-content h3{
+.header-content h1{
   font-size: 18px;
   color: var(--primary-color);
 }
 @media(max-width: 767px) {
-  .header-content h3{
-    font-size: 16px;
-  }
-}
-.header-content h1{
-  font-size: 48px;
-  color: #221E1F;
-}
-@media(max-width: 767px) {
   .header-content h1{
-    font-size: 32px;
+    font-size: 16px;
   }
 }
 .header-content p{
@@ -224,9 +215,18 @@ h3{
     font-size: 16px;
   }
 }
+.header-content p:nth-child(2){
+  font-size: 48px;
+  color: #221E1F;
+}
+@media(max-width: 767px) {
+  .header-content p:nth-child(2){
+    font-size: 32px;
+  }
+}
+
 .banner img{
   width: 45%;
-  height: 534px;
 }
 @media(max-width: 767px) {
   .banner img{
@@ -236,9 +236,8 @@ h3{
 /* 功能項 */
 
 .wrap {
-  /* max-width: 1088px; */
-  max-width: 100%;
-  margin: 0 auto;
+  /* max-width: 100%;
+  margin: 0 auto; */
   text-align: center;
 
   background-image: 
@@ -287,7 +286,7 @@ h3{
 .social-item{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 @media(max-width: 767px) {
@@ -376,7 +375,7 @@ h3{
 .brand{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 100px;
 }
 @media(max-width: 992px) {
@@ -479,7 +478,7 @@ h3{
 }
 .eval-list{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-bottom: 35px;
   margin-top: 104px;
 }
@@ -614,8 +613,8 @@ p.copyright{
 /* payment */
 
 .pay-wrap{
-  max-width: 100%;
-  margin: 0 auto;
+  /* max-width: 100%;
+  margin: 0 auto; */
   text-align: center;
   position: relative;
 }
@@ -642,7 +641,7 @@ p.copyright{
 .pay-header{
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner.svg");
   background-repeat: no-repeat;
-  background-position: 465px 0px;
+  background-position: 570px 0px;
   background-size: 885px 560px;
   max-width: 100vw;
   /* height: 560px; */
